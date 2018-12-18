@@ -116,7 +116,6 @@ public class backend {
     }
 
     public Mat detectEdges(Boolean isOriginal){
-
         Mat temp ;
         if (isOriginal) {
             temp = this.originalImg ;
