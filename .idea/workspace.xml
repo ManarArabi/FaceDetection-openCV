@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2193f36f-8d43-4805-b0de-b07e22481122" name="Default" comment="" />
+    <list default="true" id="2193f36f-8d43-4805-b0de-b07e22481122" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../ImageProcessingFinal/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageProcessingFinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageProcessingFinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/../ImageProcessingFinal/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,32 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="backend.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#detectFaces#0;class#backend#0" />
-                <element signature="e#1586#1587#0" expanded="true" />
-                <element signature="e#1637#1638#0" expanded="true" />
-                <element signature="e#1685#1686#0" expanded="true" />
-                <element signature="e#1736#1737#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#1836#1837#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/Main.java">
+      <file leaf-file-name="backend.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="265">
+              <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#backend#0;class#backend#0" />
+                <element signature="method#setEdge_detection_thershold_controller#0;class#backend#0" />
+                <element signature="method#setBrightness_controller#0;class#backend#0" />
+                <element signature="method#readImage#0;class#backend#0" />
+                <element signature="method#saveImage#0;class#backend#0" />
+                <element signature="method#detectFaces#0;class#backend#0" />
+                <element signature="method#detectEdges#0;class#backend#0" />
+                <element signature="method#blurImage#0;class#backend#0" />
+                <element signature="method#sharpenImage#0;class#backend#0" />
+                <element signature="method#equalizeImage#0;class#backend#0" />
+                <element signature="method#lightenImage#0;class#backend#0" />
+                <element signature="method#gammaCorrection#0;class#backend#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,19 +59,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ImageProcessingFinal" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java" />
         <option value="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/Main.java" />
+        <option value="$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="288" />
+    <option name="y" value="-1" />
     <option name="width" value="1377" />
     <option name="height" value="775" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -115,6 +128,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backend.Main" />
+      <module name="ImageProcessingFinal" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -156,6 +180,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -176,17 +205,18 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -204,30 +234,45 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java">
+    <entry file="jar://C:/OpenCV3.4.1/opencv/build/java/opencv-341.jar!/org/opencv/imgproc/Imgproc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#detectFaces#0;class#backend#0" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#1836#1837#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="6059">
+          <caret line="1288" selection-start-line="1288" selection-end-line="1288" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ImageProcessingFinal/src/backend/backend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#backend#0;class#backend#0" />
+            <element signature="method#setEdge_detection_thershold_controller#0;class#backend#0" />
+            <element signature="method#setBrightness_controller#0;class#backend#0" />
+            <element signature="method#readImage#0;class#backend#0" />
+            <element signature="method#saveImage#0;class#backend#0" />
+            <element signature="method#detectFaces#0;class#backend#0" />
+            <element signature="method#detectEdges#0;class#backend#0" />
+            <element signature="method#blurImage#0;class#backend#0" />
+            <element signature="method#sharpenImage#0;class#backend#0" />
+            <element signature="method#equalizeImage#0;class#backend#0" />
+            <element signature="method#lightenImage#0;class#backend#0" />
+            <element signature="method#gammaCorrection#0;class#backend#0" />
+          </folding>
         </state>
       </provider>
     </entry>
