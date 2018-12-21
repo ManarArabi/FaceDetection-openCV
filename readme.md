@@ -35,7 +35,7 @@ some of those are added for future purposes
 ![](https://github.com/ManarArabi/FaceDetection-openCV/blob/master/results/edge_detection.jpeg "edge_detection result")  
 
 ## Future work
-1 - allow parameters tuning for each enhancement.
-2 - add more useful enhancement.
-3 - add more precise face detection methods.
-4 - allow successive application of filters to test the over all effect of applying filters on face detection accuracy
+1 - allow parameters tuning for ach enhancement.  
+2 - add more useful enhancement.  
+3 - add more precise face detection methods.  
+4 - allow successive application of filters to test the over all effect of applying filters on face detection accuracy.  
