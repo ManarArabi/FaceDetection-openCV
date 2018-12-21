@@ -8,11 +8,11 @@ enhancement steps to get better results
 ## current features
 the current version is only able to able each enhancement and face detection on its own
 so we currently support:
-	- Face detection
-	- Blurring
-	- Sharpening 
-	- Lighting 
-	- Gamma correction
-	- Equalization
-	- Edge detection
+	- Face detection  
+	- Blurring  
+	- Sharpening   
+	- Lighting  
+	- Gamma correction  
+	- Equalization  
+	- Edge detection  
 some of those are added for future purposes
